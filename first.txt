@@ -1,1 +1,49 @@
-I want this commit 2
+1. explain very briefly the difference between git and github.
+Here's a list of differences between Git and GitHub:
+
+Purpose: Git is a version control system, while GitHub is a web-based platform built on top of Git for version control and collaboration.
+
+Local vs. cloud-based: Git is a local version control system that runs on the developer's computer, while GitHub is a cloud-based platform that stores code repositories on servers owned and managed by GitHub.
+
+Features: Git focuses on version control functionality such as committing, branching, and merging, while GitHub provides features for collaboration, such as pull requests, issues, and project boards.
+
+Usage: Git is used primarily for code version control and management, while GitHub is used for version control, collaboration, bug tracking, project management, and more.
+
+Accessibility: Git requires command-line knowledge and setup, while GitHub has a graphical user interface and can be accessed through a web browser.
+
+Community: GitHub has a large developer community that provides support and contributes to open-source projects, while Git is primarily used by smaller, decentralized development teams.
+
+Cost: Git is free and open-source, while GitHub offers free plans with limited features and paid plans with more features and storage.
+
+In conclusion, Git and GitHub both have their unique strengths and are used together by many developers to manage their code and collaborate on projects.
+
+
+2.explain very briefly any 5 basic git commands
+Ans-git init - Initializes a new Git repository in the current directory.
+
+git clone - Clones an existing Git repository from a remote location to your local machine.
+
+git add - Adds files to the staging area, ready to be committed to the repository.
+
+git commit - Saves changes to the Git repository by creating a new commit with a message describing the changes.
+
+git push - Publishes local commits to a remote repository, such as GitHub, to share code and collaborate with others.
+
+3.How to make a pull request?
+Ans-A pull request is a way to propose changes to a code repository that is hosted on a platform like GitHub. Here's a basic outline of how to make a pull request:
+
+Fork the repository: Go to the repository you want to contribute to and click the "Fork" button to create a copy of the repository in your own account.
+
+Clone the repository: Clone the repository you just forked to your local machine.
+
+Create a new branch: Create a new branch for the changes you want to make. This allows you to keep your changes separate from the main code until they're approved.
+
+Make changes: Make the desired changes to the code in your local repository.
+
+Commit changes: Commit your changes to your local repository using the git commit command.
+
+Push changes to your fork: Push your changes to your fork of the repository using the git push command.
+
+Submit a pull request: Go to the repository you forked on the web and click the "Compare & pull request" button. Write a descriptive message explaining your changes, and then click the "Create pull request" button.
+
+The repository maintainer will then review your changes and either merge them into the main repository or provide feedback on what needs to be changed.
